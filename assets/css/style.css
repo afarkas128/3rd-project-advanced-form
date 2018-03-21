@@ -1,0 +1,362 @@
+/**********************************
+FONT
+**********************************/
+
+html * {
+    font-family: "Roboto" !important;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Oswald" !important;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 60px;
+	margin-bottom: 50px !important;
+	margin-top: 20px !important;
+}
+
+
+/**********************************
+HEADER NAVIGATION
+**********************************/
+
+.breadcrumb {
+	background-color: #E8E8E8 !important;
+}
+
+#navigation li {
+	list-style: none;
+	display: inline;
+}
+
+#navigation ul {
+	margin: 0;
+}
+
+.container ul li {
+	display:inline-block;
+	list-style: none;
+}
+
+.header-bar ul li {
+	margin: 20px;
+	
+}
+
+.col-md-4.col-md-offset-4.user-name.form-group {
+    margin-top: 20px;
+}
+
+.col-md-12.cookie-logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col-md-7.navigation-links {
+	margin: 0 auto;
+    left: 25%;
+}
+
+.col-md-6.col-md-offset-3.label-for-sign-in {
+    text-align: center;
+    top: 10px;
+}
+
+/**********************************
+SLIDESHOW
+**********************************/
+
+.slideshow-container, .slider-images, .slider-images img {
+	height: 400px;
+	width: 100%;
+	position: absolute;
+}
+
+.slider-images {
+	list-style: none;
+}
+
+.slide-duration-p {
+	margin-bottom: -5px;
+}
+
+
+.glyphicon {
+	font-family: 'Glyphicons Halflings' !important;
+}
+
+/**********************************
+FORM CONTAINER
+**********************************/
+
+.form-container {
+	margin-top: 400px;
+}
+
+
+/**********************************
+PROJECTS DIV
+**********************************/
+
+.container ul.projects-list li {
+	display: block;
+	margin-top: 10px;
+}
+
+ul.projects-list {
+    margin-top: 50px;
+}
+
+/**********************************
+CLICK FOR OPTIONS
+**********************************/
+.text_color {
+	color: #fff;
+	margin: 5px;
+	font-weight: 200;
+}
+
+select.select-option.text_color {
+    border-color: #fff;
+    color: #000;
+    font-weight: 200;
+}
+
+
+/***************************************
+GLYPH LEFT, RIGHT AND SELECTABLE OPTIONS
+***************************************/
+.nav-buttons {
+    color: #ccc;
+    font-size: 40px;
+	line-height: 40px;
+	height: 40px;
+	top: 50%;
+	position: relative;
+	margin-top: -20px;
+	display: none;
+}
+
+.on-hover:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+.on-hover {
+	opacity: 0.7;
+}
+
+.nav-button-arrow {
+    color: #fff;
+    font-size: 40px;
+	line-height: 40px;
+	height: 40px;
+	top: 50%;
+	position: relative;
+	margin-top: -10px;
+}
+
+.nav-button-triangle {
+    color: #fff;
+    font-size: 40px;
+	line-height: 40px;
+	height: 40px;
+	top: 50%;
+	position: relative;
+	margin-top: -5px;
+}
+
+a.left.farki-slider-control {
+    display: block;
+    left: 30px;
+    position: absolute;
+    color: #fff;
+}
+
+a.right.farki-slider-control {
+    display: block;
+    right: 30px;
+    position: absolute;
+    color: #fff;
+}
+
+.selectable-options {
+	margin: 15px 0;
+}
+
+.col-md-2.selectable-button-animation {
+	margin-left: -20px;
+}
+
+.selectable-button-animation {
+    margin-right: -90px;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #5cb85c;
+    font-weight: 700;
+    /*border: solid 1px #fff;*/
+}
+
+#panel {
+	margin-left: -292.5px;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 590px;
+    width: 585px;
+    z-index: 999;
+    opacity: 0.8;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 0 10px 10px #d6d6d6;
+}
+
+
+/**********************************
+BUTTONS
+**********************************/
+.add-friend {
+	margin-top: 5px;
+}
+
+.remove-friend {
+	margin-top: 5px;
+}
+
+#button-submit {
+    float: right;
+}
+
+button#button-sign {
+    margin-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 115px;
+}
+
+button#button-update {
+    float: right;
+}
+
+
+/**********************************
+MEDIA QUERIS
+**********************************/
+
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: 768px) {
+}
+ Medium devices (desktops, 992px and up) 
+@media (min-width: 992px) {
+}*/
+
+/* Large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) {
+}*/
+
+
+/**********************************
+MODAL SUBMISSION
+**********************************/
+.submission-error {
+	color: red;
+	font-weight: 600;
+}
+
+.submission-success {
+	color: green;
+	font-weight: 600;
+}
+
+.modal-title {
+    line-height: 1.42857143;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+
+.modal-dialog {
+    top: 250px !important;
+}
+
+
+/**********************************
+FOOTER
+**********************************/
+.footer p {
+	margin: 0;
+	margin-top: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.footer ul li {
+	margin: 15px;
+}
+
+.footer {
+	color: #000;
+	text-align: center;
+}
+
+ol, ul {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0px !important;
+}
+
+.li-inline {
+	display: inline;
+}
+
+
+/**********************************
+TABLE
+**********************************/
+
+.php-table {
+	margin: 20px 0;
+}
+
+.table {
+	margin-top: 20px;
+	margin-bottom: 0 !important;
+}
+
+/**********************************
+ABOUT US IMAGES
+**********************************/
+.img-holder {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin-bottom: 50px;
+}
+
+.contact-us-image-1 {
+    background: url('../img/contact-us.png');
+}
+
+/*.contact-us-image-2 {
+    background: url('../img/Info-logo2-300x300.jpg');
+}*/
+
+.about-us-image-1 {
+	background: url('../img/about-us-300x300.png');
+}
+
+.about-us-col-md-4 {
+	background: url('../img/services8.jpg');
+}
